@@ -1,0 +1,107 @@
+2025-08-27 11:51:37,237 - INFO - === Iniciando atualização completa ===
+2025-08-27 11:51:37,244 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:51:37,248 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 11:51:37,251 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:51:37,254 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 11:51:37,269 - INFO - Records after applying filters: 480
+2025-08-27 11:51:37,387 - INFO - Workbook updated with 480 records and charts generated.
+2025-08-27 11:51:37,387 - INFO - === Atualização completa finalizada ===
+2025-08-27 09:50:48,152 - INFO - === Iniciando atualização completa ===
+2025-08-27 09:50:48,187 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 09:50:48,200 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 09:50:48,213 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 09:50:48,229 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 09:50:48,259 - INFO - Records after applying filters: 480
+2025-08-27 09:50:48,525 - INFO - Workbook updated with 480 records and charts generated.
+2025-08-27 09:50:48,525 - INFO - === Atualização completa finalizada ===
+2025-08-27 09:58:03,099 - INFO - === Iniciando atualização completa ===
+2025-08-27 09:58:03,106 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 09:58:03,109 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 09:58:03,113 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 09:58:03,116 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 09:58:03,128 - INFO - Records after applying filters: 480
+2025-08-27 09:58:03,365 - INFO - Workbook updated with 480 records and charts generated.
+2025-08-27 09:58:03,365 - INFO - === Atualização completa finalizada ===
+2025-08-27 10:48:04,855 - INFO - === Iniciando atualização completa ===
+2025-08-27 10:48:04,870 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 10:48:04,872 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 10:48:04,874 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 10:48:04,876 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 11:16:42,833 - INFO - === Iniciando atualização completa ===
+2025-08-27 11:16:42,852 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:16:42,854 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 11:16:42,856 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:16:42,858 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 11:26:01,735 - INFO - === Iniciando atualização completa ===
+2025-08-27 11:26:01,742 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:26:01,743 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 11:26:01,745 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:26:01,747 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 11:26:09,360 - ERROR - Falha ao gravar no SQL (rollback executado): ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The EXECUTE permission was denied on the object 'sp_UpsertAtendimentos', database 'SaudeDev', schema 'app'. (229) (SQLExecDirectW)")
+Traceback (most recent call last):
+  File "C:\Users\Nicolas\Desktop\relatorio_saude\scripts\agent.py", line 433, in persist_to_sql_merge
+    cur.execute("EXEC app.sp_UpsertAtendimentos;")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The EXECUTE permission was denied on the object 'sp_UpsertAtendimentos', database 'SaudeDev', schema 'app'. (229) (SQLExecDirectW)")
+2025-08-27 11:26:15,738 - INFO - === Atualização completa finalizada ===
+2025-08-27 11:35:47,217 - INFO - === Iniciando atualização completa ===
+2025-08-27 11:35:47,225 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:35:47,228 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 11:35:47,238 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 11:35:47,241 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 11:35:50,347 - ERROR - Falha ao gravar no SQL (rollback executado): ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The EXECUTE permission was denied on the object 'sp_UpsertAtendimentos', database 'SaudeDev', schema 'app'. (229) (SQLExecDirectW)")
+Traceback (most recent call last):
+  File "C:\Users\Nicolas\Desktop\relatorio_saude\scripts\agent.py", line 441, in persist_to_sql_merge
+    cur.execute("EXEC app.sp_UpsertAtendimentos;")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The EXECUTE permission was denied on the object 'sp_UpsertAtendimentos', database 'SaudeDev', schema 'app'. (229) (SQLExecDirectW)")
+2025-08-27 11:35:52,586 - INFO - === Atualização completa finalizada ===
+2025-08-27 12:03:31,431 - INFO - === Iniciando atualização completa ===
+2025-08-27 12:03:31,438 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 12:03:31,441 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 12:03:31,445 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 12:03:31,447 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 12:03:35,350 - INFO - Persistência no SQL concluída via MERGE. Linhas em staging: 480.
+2025-08-27 12:03:37,903 - INFO - === Atualização completa finalizada ===
+2025-08-27 12:11:38,976 - INFO - === Iniciando atualização completa ===
+2025-08-27 12:11:38,991 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 12:11:38,993 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 12:11:38,995 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 12:11:38,997 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 12:11:43,036 - INFO - Persistência no SQL concluída via MERGE. Linhas em staging: 370.
+2025-08-27 12:11:45,720 - INFO - === Atualização completa finalizada ===
+2025-08-27 13:56:45,056 - INFO - === Iniciando atualização completa ===
+2025-08-27 13:56:45,064 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 13:56:45,066 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 13:56:45,068 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 13:56:45,069 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 13:56:48,346 - INFO - Persistência no SQL concluída via MERGE. Linhas em staging: 370.
+2025-08-27 13:56:50,619 - INFO - === Atualização completa finalizada ===
+2025-08-27 13:57:03,088 - INFO - === Gerar gráficos (Resumo) ===
+2025-08-27 13:57:05,202 - INFO - === Gráficos gerados ===
+2025-08-27 14:09:27,001 - INFO - === Iniciando atualização completa ===
+2025-08-27 14:09:27,007 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:09:27,009 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 14:09:27,011 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:09:27,013 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 14:15:40,641 - INFO - === Iniciando atualização completa ===
+2025-08-27 14:15:40,651 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:15:40,653 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 14:15:40,655 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:15:40,657 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 14:15:43,974 - INFO - Persistência no SQL concluída (MERGE). Linhas em staging: 370.
+2025-08-27 14:15:45,562 - INFO - === Atualização completa finalizada ===
+2025-08-27 14:16:55,368 - INFO - === Iniciando atualização completa ===
+2025-08-27 14:16:55,384 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:16:55,386 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 14:16:55,387 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:16:55,389 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 14:16:58,466 - INFO - Persistência no SQL concluída (MERGE). Linhas em staging: 480.
+2025-08-27 14:17:00,140 - INFO - === Atualização completa finalizada ===
+2025-08-27 14:35:49,470 - INFO - === Iniciando atualização completa ===
+2025-08-27 14:35:49,476 - INFO - Imported 120 rows from sig1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:35:49,478 - INFO - Imported 120 rows from sig2.txt (delimiter ';', encoding 'utf-8')
+2025-08-27 14:35:49,480 - INFO - Imported 120 rows from op1.csv (delimiter ',', encoding 'utf-8')
+2025-08-27 14:35:49,482 - INFO - Imported 120 rows from op2.txt (delimiter '|', encoding 'utf-8')
+2025-08-27 14:35:52,372 - INFO - Persistência no SQL concluída via MERGE. Linhas em staging: 480.
+2025-08-27 14:35:54,549 - INFO - === Atualização completa finalizada ===

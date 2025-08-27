@@ -1,0 +1,40 @@
+periodo_inicio: '2023-05-01'
+periodo_fim: '2025-12-31'
+moeda: R$
+uf_incluir:
+- SP
+- RJ
+- MG
+- PR
+- RS
+- BA
+categoria_incluir:
+- A
+- B
+- C
+
+# ...já existente...
+sql:
+  enable: true
+  driver: "ODBC Driver 18 for SQL Server"
+  server: "localhost,1433"
+  database: "SaudeDev"
+  username: "sa"              # em produção, use etl_user
+  password: "YourStrong@Passw0rd"
+  encrypt: false
+  trust_server_certificate: true
+  read_enable: false          # deixe false por enquanto
+  dashboard_group: "ClienteIdSegmento"   # ou "ClienteId", "Operadora", "Procedimento"
+  dashboard_top_n: 10           # quantas séries no gráfico (evita poluição)
+  depara:
+  enabled: true
+  sources:
+    - column: "Operadora"
+      file: "sample_data/depara_operadora.csv"   # colunas: De,Para
+      case_insensitive: true
+      strip: true
+    - column: "Procedimento"
+      map:
+        "PROC-01": "Proc1"
+        "P01": "Proc1"
+        "PROC 1": "Proc1"
